@@ -1,0 +1,8 @@
+C:\UNIVERSIDAD\Estudiantes\Estudiantes\bin\Debug\Estudiantes.exe.config
+C:\UNIVERSIDAD\Estudiantes\Estudiantes\bin\Debug\Estudiantes.exe
+C:\UNIVERSIDAD\Estudiantes\Estudiantes\bin\Debug\Estudiantes.pdb
+C:\UNIVERSIDAD\Estudiantes\Estudiantes\obj\Debug\Estudiantes.csproj.AssemblyReference.cache
+C:\UNIVERSIDAD\Estudiantes\Estudiantes\obj\Debug\Estudiantes.csproj.CoreCompileInputs.cache
+C:\UNIVERSIDAD\Estudiantes\Estudiantes\obj\Debug\Estudiantes.exe
+C:\UNIVERSIDAD\Estudiantes\Estudiantes\obj\Debug\Estudiantes.pdb
+C:\UNIVERSIDAD\Estudiantes\Estudiantes\obj\Debug\Estudiantes.exe.config
