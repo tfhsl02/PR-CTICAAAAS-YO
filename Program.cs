@@ -9,15 +9,26 @@ namespace Estudiantes
 {
     class Estudiante
     {
-        public string nombre { get; set; }
-        public int edad { get; set; }
-        public double promedio { get; set; }
+        private string nombre;
+        private int edad;
+        private double promedio;
 
         public Estudiante(string nom, int ed, double prom)
         {
-            nombre = nom;
-            edad = ed;
-            promedio = prom;
+            this.nombre = nom;
+            this.edad = ed;
+            this.promedio = prom;
+        }
+
+        public string GetNombre() { return nombre; }
+        public int GetEdad() { return edad; }
+        public double GetPromedio() { return promedio; }
+
+        public void MostrarDatos()
+        {
+            Console.WriteLine($"\n{nombre.ToUpper()}");
+            Console.WriteLine($"> Edad: {edad}");
+            Console.WriteLine($"> Promedio: {promedio:F2}");
         }
     }
     class Informacion
@@ -49,11 +60,15 @@ namespace Estudiantes
         }
         public void MostrarResumen()
         {
+            if (estudiantes == null || estudiantes.Length == 0)
+            {
+                Console.WriteLine("No hay estudiantes registrados");
+                return;
+            }
+
             foreach (Estudiante e in estudiantes)
             {
-                Console.WriteLine($"\n {e.nombre.ToUpper()}");
-                Console.WriteLine($"> Edad: {e.edad}");
-                Console.WriteLine($"> Promedio: {e.promedio}");
+                e.MostrarDatos();
             }
         }
     }
